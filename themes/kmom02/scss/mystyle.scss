@@ -27,7 +27,7 @@ body {
 .main {
     font-family: 'Roboto';
     flex: 1 0 auto;
-    background-color: lightgrey;
+    background-color: $background-alternative-color;
     padding: 40px;
     max-width: 1200px;    
     min-height: 800px;
@@ -48,9 +48,9 @@ body {
 
 .header {
     font-family: 'Roboto';
-    border-bottom: solid 3px cadetblue;
-    color: cadetblue;
-    height: 200px;
+    border-bottom: solid 3px $accent-color;
+    color: $accent-color;
+    height: 150px;
 }
 
 .nav {
@@ -67,20 +67,8 @@ body {
     padding: 3em 3em 3em 0;
 }
 
-@media (max-width: 767px) {
-    .title, .logo {
-        padding: 1em 1em 1em 0;
-    }
-    .title {
-        min-width: 50%;
-    }
-    .logo {
-        max-width: 30%;
-    }
-}
-
 .title * {
-    color: #111;
+    color: $font-color;
 }
 
 .title p {
@@ -90,7 +78,7 @@ body {
 /* Header */
 
 .header {
-    min-height: 300px;
+    height: auto;
 }
 
 .logo {
@@ -112,17 +100,18 @@ body {
     display: flex;
     justify-content: space-between;
     min-height: 300px;
-    background-color: cadetblue;
+    background-color: $accent-color;
+
+    p {
+        color: $font-color;
+        padding: 50px;
+    }
+
+    a {
+        color: $font-color;
+    }
 }
 
-.footer p {
-    color: #222;
-    padding: 50px;
-}
-
-.footer a {
-    color: #222;
-}
 
 .footer .social {
     font-size: 3rem;
@@ -134,7 +123,7 @@ body {
 body {
     font-family: sans-serif;
     line-height: 1.5rem;
-    color: #444;
+    color: $font-color-alternative;
 }
 
 p, td, th, li, dd {

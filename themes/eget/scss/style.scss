@@ -1,0 +1,17 @@
+// importing normalize
+@import '../../node_modules/normalize.css/normalize';
+
+// google font imports
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+// fontawesome imports
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+// importing modules
+@import 'variables';
+@import 'blockquotes';
+@import 'code';

@@ -2,7 +2,10 @@
 Logo: image/girl.png
 Tagline: My portfolio.
 Social:
-    - title: Link till mitt github repo.
+    - title: Link to my github repo.
       url: https://github.com/hagw23bth
-      icon: github
+      icon: fab fa-github
+    - title: Link to my linkedin
+      url: 
+      icon: fab fa-linkedin
 ---
