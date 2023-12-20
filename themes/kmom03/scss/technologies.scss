@@ -1,0 +1,39 @@
+/* technologies.scss */
+.container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em 1em;
+    width: 100%;
+    max-width: none;
+    overflow-x: hidden;
+}
+
+.box {
+    background: #f0f0f0;
+    padding: 50px;
+    min-height: 200px;
+
+    &.span1 {
+        grid-column: span 1;
+    }
+
+    &.span2 {
+        grid-column: span 2;
+    }
+
+    &.span3 {
+        grid-column: span 3;
+    }
+}
+
+.titlebox {
+    grid-column: span 3;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+// media queries in responsive.scss

@@ -1,0 +1,82 @@
+// Responsivitet brytpunk 767px
+@media (max-width: 767px) {
+    .main {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    
+    // TITEL och LOGO
+    .title, .logo {
+        padding: 1em 1em 1em 0;
+    }
+
+    .title {
+        min-width: 50%;
+    }
+
+    .logo {
+        max-width: 120px;
+        padding: 20px; 
+        order: -1; // Placera logon överst
+    }
+
+    // HEADER och NAV
+    .header {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .nav {
+        padding: 20px;
+    }
+
+    .nav-toggle {
+        padding: 20px;
+    }
+
+    // FOOTER
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    // Text och Spacing
+    body {
+        font-size: 90%;
+    }
+
+    .me {
+        padding: 20px;
+    }
+    
+    // Technologies
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+    .box {
+        grid-column: auto; // Återställer till standardlayout
+        min-height: 100px;
+        padding: 10px;
+    }
+    // Technology 
+    .landingpage {
+        grid-template-columns: 1fr;
+    }
+    
+    .sidebar {
+        display: none;
+    }
+}
+
+// Responsivitet BILDER och MEDIA
+img {
+    max-width: 100%;
+    height: auto;
+}

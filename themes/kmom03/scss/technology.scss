@@ -1,0 +1,35 @@
+/* technology.scss */
+.landingpage {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+    // box-sizing: border-box;
+    // gap: 1em 1em;
+    // width: 100%;
+    // max-width: none;
+    // overflow-x: hidden;
+    // padding: 40px;
+}
+
+.sidebar {
+    padding: 20px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    a {
+        display: block;
+        background-color: $accent-color;
+        color: #FFF;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+}
