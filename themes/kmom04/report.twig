@@ -1,0 +1,23 @@
+{% include 'incl/header.twig' %}
+
+<body>
+    {% include 'incl/nav.twig' %}
+
+    <div class="main" role="main">
+        <div class="landingpage">
+            <div class="sidebar">
+                <ul>
+                    <li><a href="{{ base_url }}/analysis/01_colors.md">01 Colors</a></li>
+                    <li><a href="{{ base_url }}/analysis/02_load.md">02 Load</a></li>
+                    <li><a href="{{ base_url }}/analysis/03_design_principles.md">03 Design principles</a></li>    
+                </ul>                           
+            </div>
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+    {% include 'incl/footer.twig' %}
+</body>
+
+</html>

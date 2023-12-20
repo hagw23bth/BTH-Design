@@ -1,0 +1,7 @@
+/* technology.scss */
+.landingpage {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 20px;
+}

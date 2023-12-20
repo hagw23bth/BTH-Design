@@ -1,23 +1,39 @@
+@import '../../node_modules/normalize.css/normalize';
+
+// Font Awesome imports
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
 @import '../../shared/fontawesome/scss/solid';
 @import '../../shared/fontawesome/scss/regular';
-@import '../../node_modules/normalize.css/normalize';
+
+// Google Fonts imports
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+// Variables declared
 @import 'variables';
+
+// Typography related styling
+@import 'typography';
 @import 'blockquotes';
 @import 'code';
 @import 'mystyle';
+
+// Page layouts
 @import 'technologies';
 @import 'technology';
+
+// Specific styling for different segments
+@import 'footer';
+@import 'sidebar';
+
+// Responsive style
 @import 'responsive';
 
-
-// google fonts imports
-@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
+// Global style
 body {
     background-color: $background-color;
+    
 } 
 
 *{

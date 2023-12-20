@@ -5,6 +5,7 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 1em 1em;
     width: 100%;
+    max-width: none;
     overflow-x: hidden;
 }
 

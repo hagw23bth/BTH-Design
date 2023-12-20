@@ -1,0 +1,23 @@
+/* sidebar.scss */
+.sidebar {
+    padding: 20px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin-bottom: 10px;
+    }
+
+    a {
+        display: block;
+        background-color: $accent-color;
+        color: #FFF;
+        padding: 10px 15px;
+        text-align: left;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+}
